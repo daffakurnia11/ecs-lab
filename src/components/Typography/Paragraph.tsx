@@ -5,7 +5,7 @@ import classNames from "classnames";
 export default function Paragraph({
   size = "base",
   as: Component = "p",
-  className = "",
+  className,
   weight = "font-normal",
   ...props
 }: ParagraphProps): React.ReactElement {

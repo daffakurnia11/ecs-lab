@@ -15,5 +15,5 @@ export interface ParagraphProps extends TypographyProps {
 }
 
 export interface SmallProps extends TypographyProps {
-  size?: "base" | "xs";
+  size?: "base" | "sm";
 }

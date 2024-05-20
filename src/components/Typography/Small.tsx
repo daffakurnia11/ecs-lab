@@ -5,13 +5,13 @@ import classNames from "classnames";
 export default function Small({
   size = "base",
   as: Component = "small",
-  className = "",
+  className,
   weight = "font-normal",
   ...props
 }: SmallProps): React.ReactElement {
   const textSizeLevel = {
     base: "text-sm",
-    xs: "text-xs",
+    sm: "text-xs",
   };
   const textSizeClass = textSizeLevel[size];
 

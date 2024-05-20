@@ -5,7 +5,7 @@ import classNames from "classnames";
 export default function Heading({
   level = 1,
   as = "h1",
-  className = "",
+  className,
   weight = "font-normal",
   ...props
 }: HeadingProps): React.ReactElement {

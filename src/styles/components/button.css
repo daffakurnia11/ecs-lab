@@ -1,0 +1,51 @@
+.button {
+  @apply w-fit rounded transition-all duration-300 flex items-center justify-center gap-2.5 disabled:opacity-70 border border-solid text-white outline outline-transparent enabled:active:outline-gray-300;
+}
+
+.button-default {
+  @apply bg-primary-700 border-primary-700 enabled:hover:bg-primary-800 enabled:hover:border-primary-800 enabled:active:bg-primary-900 enabled:active:border-primary-900;
+}
+
+.button-outline {
+  @apply bg-transparent border-primary-700 text-primary-700 enabled:hover:bg-primary-700 enabled:hover:text-white enabled:active:bg-transparent  enabled:active:text-primary-700;
+}
+
+.button-text {
+  @apply bg-transparent border-transparent text-primary-700 enabled:hover:text-primary-800 enabled:active:text-primary-900;
+}
+
+.button-lg {
+  @apply px-6 py-2.5;
+}
+
+.button-lg-with-prefix {
+  @apply !pl-4;
+}
+
+.button-lg-with-suffix {
+  @apply !pr-4;
+}
+
+.button-base {
+  @apply px-5 py-2;
+}
+
+.button-base-with-prefix {
+  @apply !pl-3;
+}
+
+.button-base-with-suffix {
+  @apply !pr-3;
+}
+
+.button-sm {
+  @apply px-3 py-1.5;
+}
+
+.button-sm-with-prefix {
+  @apply !pl-2.5;
+}
+
+.button-sm-with-suffix {
+  @apply !pr-2.5;
+}
