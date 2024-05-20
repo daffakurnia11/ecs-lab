@@ -1,18 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-
-type Props = {
-  children: React.ReactNode;
-  as?: keyof JSX.IntrinsicElements;
-  className?: string;
-  style?: React.CSSProperties;
-  size?: "lg" | "base" | "sm";
-  type?: "default" | "outline" | "text";
-  htmlType?: "submit" | "button" | "reset" | any;
-  prefix?: React.ReactNode;
-  suffix?: React.ReactNode;
-  disabled?: boolean;
-};
+import { ButtonProps } from "@/types/button";
 
 export default function Primary({
   as: Component = "button",
@@ -23,11 +11,11 @@ export default function Primary({
   suffix,
   className,
   ...props
-}: Props) {
+}: ButtonProps) {
   return (
     <Component
-      type={htmlType}
       {...props}
+      type={htmlType}
       className={classNames(
         className,
         "button",
