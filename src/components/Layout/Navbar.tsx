@@ -14,7 +14,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <div className="bg-secondary-900 sm:rounded-b-[20px] rounded-b-[8px] relative z-20">
+    <div className="bg-secondary-900 sm:rounded-b-[20px] rounded-b-[8px] fixed top-0 w-full z-20">
       <Menu>
         {({ open }) => (
           <>
