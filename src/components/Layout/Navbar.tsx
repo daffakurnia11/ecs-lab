@@ -92,7 +92,7 @@ export default function Navbar() {
                 <Link href={"/"}>
                   <Typography.Paragraph
                     className={classNames(
-                      "text-2xl",
+                      "text-2xl text-center",
                       pathname === "/"
                         ? "text-primary-700 font-semibold"
                         : "text-white font-normal"
@@ -104,7 +104,7 @@ export default function Navbar() {
                 <Link href={"/about"}>
                   <Typography.Paragraph
                     className={classNames(
-                      "text-2xl",
+                      "text-2xl text-center",
                       pathname === "/about"
                         ? "text-primary-700 font-semibold"
                         : "text-white font-normal"
@@ -116,7 +116,7 @@ export default function Navbar() {
                 <Link href={"/interest"}>
                   <Typography.Paragraph
                     className={classNames(
-                      "text-2xl",
+                      "text-2xl text-center",
                       pathname === "/about"
                         ? "text-primary-700 font-semibold"
                         : "text-white font-normal"
@@ -127,7 +127,7 @@ export default function Navbar() {
                 </Link>
                 <Link href={"/contact"}>
                   <Button.Primary
-                    className="text-secondary-900 font-semibold"
+                    className="text-secondary-900 font-semibold mx-auto"
                     size="sm"
                   >
                     Approach Us
