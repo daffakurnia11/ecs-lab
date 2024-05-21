@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Header from "./_component/Header";
+import About from "./_component/About";
 
 export const metadata: Metadata = {
   title: "Home - Embedded & Cyber-Physical System",
@@ -7,5 +8,10 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <About />
+    </>
+  );
 }
