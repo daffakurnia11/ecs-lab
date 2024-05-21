@@ -10,12 +10,12 @@ export default function Heading({
   ...props
 }: HeadingProps): React.ReactElement {
   const textSizeLevel = {
-    1: "text-6xl",
-    2: "text-5xl",
-    3: "text-4xl",
-    4: "text-3xl",
-    5: "text-2xl",
-    6: "text-xl",
+    1: "sm:text-6xl text-4xl",
+    2: "sm:text-5xl text-3xl",
+    3: "sm:text-4xl text-2xl",
+    4: "sm:text-3xl text-xl",
+    5: "sm:text-2xl text-xl",
+    6: "sm:text-xl text-lg",
   };
   const textSizeClass = textSizeLevel[level];
 

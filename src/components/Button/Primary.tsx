@@ -39,7 +39,7 @@ export default function Primary({
       <span
         className={classNames(
           size === "lg" ? "text-lg" : size === "sm" ? "text-sm" : "text-base",
-          "font-text"
+          "font-text font-bold"
         )}
       >
         {children}
