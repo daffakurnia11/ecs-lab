@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Header from "./_component/Header";
 import About from "./_component/About";
+import Interest from "./_component/Interest";
 
 export const metadata: Metadata = {
   title: "Home - Embedded & Cyber-Physical System",
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       <Header />
       <About />
+      <Interest />
     </>
   );
 }

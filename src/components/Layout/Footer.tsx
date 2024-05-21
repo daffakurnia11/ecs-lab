@@ -72,7 +72,7 @@ export default function Footer() {
               Internet of Things
             </Typography.Paragraph>
             <Typography.Paragraph className="text-xl text-white">
-              Artificical Inteligence
+              Artificical Intelligence
             </Typography.Paragraph>
             <Typography.Paragraph className="text-xl text-white">
               Embedded System
