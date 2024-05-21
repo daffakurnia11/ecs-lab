@@ -10,6 +10,7 @@ export default function Primary({
   prefix,
   suffix,
   className,
+  children,
   ...props
 }: ButtonProps) {
   return (
@@ -41,7 +42,7 @@ export default function Primary({
           "font-text"
         )}
       >
-        Primary
+        {children}
       </span>
       {suffix && (
         <span

@@ -1,5 +1,5 @@
 .button {
-  @apply w-fit rounded transition-all duration-300 flex items-center justify-center gap-2.5 disabled:opacity-70 border border-solid text-white outline outline-transparent enabled:active:outline-gray-300;
+  @apply rounded transition-all duration-300 flex items-center justify-center gap-2.5 disabled:opacity-70 border border-solid text-white outline outline-transparent enabled:active:outline-gray-300;
 }
 
 .button-default {
