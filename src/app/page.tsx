@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Header from "./_component/Header";
 import About from "./_component/About";
 import Interest from "./_component/Interest";
+import LatestEvent from "./_component/LatestEvent";
 
 export const metadata: Metadata = {
   title: "Home - Embedded & Cyber-Physical System",
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <About />
       <Interest />
+      <LatestEvent />
     </>
   );
 }

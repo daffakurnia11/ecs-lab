@@ -5,22 +5,22 @@ import React from "react";
 
 export default function Interest() {
   return (
-    <div className="container mx-auto py-10 px-10">
+    <div className="container mx-auto my-16 px-10">
       <Typography.Heading
         level={2}
         as="h2"
-        className="text-secondary-900"
+        className="uppercase text-secondary-900"
         weight="font-bold"
       >
         OUR INTEREST
       </Typography.Heading>
       <Typography.Paragraph
-        className="text-uppercase text-secondary-900 -mt-2"
+        className="uppercase text-secondary-900 -mt-2"
         weight="font-bold"
       >
         This is our field of study
       </Typography.Paragraph>
-      <div className="flex justify-center flex-wrap gap-3 mt-9 mb-10 place-content-center">
+      <div className="flex justify-center flex-wrap gap-8 mt-9 mb-10 place-content-center">
         <div className="relative h-[450px] w-[300px] rounded-3xl overflow-hidden">
           <Image
             src={"/img/es-bg.png"}
