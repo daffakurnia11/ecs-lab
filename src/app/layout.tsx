@@ -16,9 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-primary-25">
-        <Navbar />
+        {/* <Navbar />
         {children}
-        <Footer />
+        <Footer /> */}
       </body>
     </html>
   );
